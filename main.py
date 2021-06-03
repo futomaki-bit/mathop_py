@@ -4,8 +4,6 @@ import random
 
 a = 11111
 b = 333
-# quicksort breaks with this
-# ["quicksort",quick_sort(array)]
 
 
 def multiplication(first, second):
@@ -38,7 +36,7 @@ def remainder(first, second):
 funcList = [
     ["+", summation],
     ["x", multiplication],
-    ["exp", power],
+    ["pow", power],
     ["-", subtraction],
     ["/", division],
     ["%", remainder]
