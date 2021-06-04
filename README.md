@@ -2,7 +2,7 @@
  
 Just a little test with simple built-in math operators in Python.
 
-Sample Output:
+**Sample Output:**
 
 ```
 +      0.004738330841064453
@@ -13,6 +13,6 @@ pow    0.0040209293365478516
 %      0.016670703887939453
 ```
 
-NOTE: 
+## Note: ##
 - Edit variable *a* and *b* for desired values.
 - power is **, not ^ in Python
