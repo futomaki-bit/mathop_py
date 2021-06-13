@@ -1,37 +1,11 @@
-# import time for timer, random for generating array to test
+# import time for timer, random for generating array to test, operation for math functions
 import time
 import random
+from operation import *
 
 # VARIABLES
 a = 11111
 b = 333
-
-
-def multiplication(first, second):
-    return first*second
-
-
-def summation(first, second):
-    return first+second
-
-# IMPORTANT!! ^ IS NOT POWER/EXPONENTIAL, IT IS XOR!!
-
-
-def power(first, second):
-    return first**second
-
-
-def subtraction(first, second):
-    return first - second
-
-
-def division(first, second):
-    return first/second
-
-
-def remainder(first, second):
-    return first % second
-
 
 # Edit list here
 funcList = [
