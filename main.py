@@ -2,6 +2,7 @@
 import time
 import random
 
+# VARIABLES
 a = 11111
 b = 333
 
@@ -13,7 +14,7 @@ def multiplication(first, second):
 def summation(first, second):
     return first+second
 
-# NOTE: ^ IS NOT POWER/EXPONENTIAL, IT IS XOR
+# IMPORTANT!! ^ IS NOT POWER/EXPONENTIAL, IT IS XOR!!
 
 
 def power(first, second):
@@ -42,7 +43,8 @@ funcList = [
     ["%", remainder]
 ]
 
-# driver to run all the algorithms in the list with the same array
+# DRIVER
+# to run all the algorithms in the list with the same array
 for f in funcList:
     start_time = time.time()
     time.sleep(1)
