@@ -1,6 +1,5 @@
-# import time for timer, random for generating array to test, operation for math functions
+# import time for timer, operation for math functions
 import time
-import random
 from operation import *
 
 # VARIABLES
